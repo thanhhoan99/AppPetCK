@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "Shared/Shared.jsx", "components/index.jsx", "components/PetDetails/PetSubinfoCard.jsx", "components/PetDetails/PetSubinfo.jsx", "components/PetDetails/PetInfo.jsx", "components/PetDetails/OwnerInfo.jsx", "components/Home/Header.jsx", "app/index.jsx", "app/_layout.jsx", "app/add-new-pet/index.jsx", "app/(tabs)/profile.jsx", "app/(tabs)/inbox.jsx", "app/(tabs)/home.jsx", "app/(tabs)/favorite.jsx", "app/(tabs)/_layout.jsx", "components/PetDetails/AboutPet.jsx", "app/pet-details/index.jsx"  ]
 }

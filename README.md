@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# PetApp: Full Stack Mobile Application Documentation
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+PetApp is a fully functional mobile application developed with React Native for the frontend and Firebase for the backend. The app provides a wide range of features that help users manage pet information, store images, track user events, and chat with others for pet adoption.
 
-## Get started
+## Features
 
-1. Install dependencies
+### 1. User Management
+- Users can log in with Google.
+- Add pet information including name, breed, age, weight, and health status.
+- Upload and store pet images in Firebase Storage.
+- View saved pet information and chat with other users.
 
-   ```bash
-   npm install
-   ```
+### 2. Pet Management
+- Manage a list of pets including details such as name, breed, weight, and health status.
+- Upload and store pet images in Firebase Storage.
+- Edit and delete pet information.
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
+## Technology Stack
 
-In the output, you'll find options to open the app in a
+### Frontend Libraries
+- React Native
+- Expo
+- Firebase SDK
+- Expo Image Picker
+- @clerk/clerk-expo
+- Moment
+- expo-web-browser ,expo-constants
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Backend Libraries
+- Firebase Firestore
+- Firebase Storage
+- Firebase Analytics
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Setup Instructions
 
-## Get a fresh project
+### 1. Environment Setup
 
-When you're ready, run:
+Ensure you have the following tools installed:
+- [Node.js](https://nodejs.org/en/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- [Firebase Project](https://firebase.google.com/)
 
-```bash
-npm run reset-project
-```
+### 2. Installing the Application
+- cd app
+- npm start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![alt text](image.png)
